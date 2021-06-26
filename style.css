@@ -83,6 +83,8 @@ body {
   .flex {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .left {
@@ -96,8 +98,8 @@ body {
   }
 
   .right {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
     color: #fff;
     width: 100%;
     transform: translateY(0px);
@@ -105,7 +107,7 @@ body {
   }
 
   .right h1 {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 600;
   }
 
@@ -120,11 +122,21 @@ body {
     border-radius: 10px;
     border: none;
     color: hsl(257, 40%, 49%);
+    font-weight: 600;
   }
 
   .social-links {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
     margin-top: 20px;
+  }
+
+  .fa {
+    color: white;
+    padding: 8px;
+    width: 30px;
+    height: 30px;
     text-align: center;
-    /* transform: translateX(50px); */
   }
 }
